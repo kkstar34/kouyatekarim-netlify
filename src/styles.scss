@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+// Import Lato Google Font
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+// Update Bulma's global variables
+$family-sans-serif: "Lato", sans-serif;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// More theme colors could be added here...
+$primary: #454545;
+
+// Update some of Bulma's component & color variables
+$footer-padding: 3rem 1.5rem;
+$link: hsl(171, 100%, 41%);
+
+// Custom Styles
+.card-gap {margin-top:1.75rem}
+.modal-trigger { cursor: pointer; }
+a.icon > strong {margin-left:.25rem}
+
+// import everything - alternatively import just what you need: https://bulma.io/documentation/overview/modular/
+@import "~bulma/bulma"; 
+
+// override specific bulma styles
+.section {padding: 2.15rem 1.5rem}
+
+@function theme-color($key: "primary") {
+    @return map-get($theme-colors, $key);
+  }
+
+ 
