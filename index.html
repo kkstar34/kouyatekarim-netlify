@@ -20,6 +20,23 @@
 				 padding-bottom: 0.1rem;
 				 margin-left: 1rem;
 			 }
+			 .text-white{
+				color: white;
+				background-color: #e53a32;
+				display: inline-block;
+			 }
+
+			 .image--cover{
+				object-fit: cover;
+			 }
+
+			 @media  only screen and (max-width:36em){
+				.mb-x-1{
+					margin-bottom: 1rem;
+
+				}
+				
+			 }
 		 </style>
 	</head>
 	<body>
@@ -40,7 +57,7 @@
 						<h5 class="fade-up">Instructeur à <a href="https://gomycode.co" target="_blank"><span class="company">Gomycode</span></a>   </h4>
 					</div>
 					<div class="fade-up">
-						<a href="#heading"><button class="primary-btn mr-15">En savoir plus</button></a>
+						<a href="https://www.connectionivoirienne.net/2020/03/01/start-up-solution-mobile-cote-divoire-un-prix-de-12-million-de-fcfa-pour-deux-etudiants/" target="_blank"><button class="primary-btn mr-15 mb-x-1">En savoir plus</button></a>
 						<a href="#heading"><button class="secondary-btn" >Commencer</button></a>	
 					</div>
 					<div class="highlighter-container fade-up">
@@ -100,23 +117,23 @@
 					<div class="stack-card" title="CSS3">
 						<img src="assets/images/css.svg" />
 					</div>
-					<div class="stack-card" title="SASS">
-						<img src="assets/images/sass.svg" />
-					</div>
 					<div class="stack-card" title="Javascript">
 						<img src="assets/images/javascript.svg" />
 					</div>
 					<div class="stack-card" title="Bootstrap">
-						<img src="assets/images/bootstrap.png"/>
+						<img src="assets/images/bootstrap-svgrepo-com.svg"/>
 					</div>
-					<div class="stack-card" title="Python">
-						<img src="assets/images/py.png" />
+					<div class="stack-card" title="REACT">
+						<img src="assets/images/react-svgrepo-com.svg" />
+					</div>
+					<div class="stack-card" title="Nodejs">
+						<img src="assets/images/nodejs-svgrepo-com.svg" />
 					</div>
 					<div class="stack-card" title="Laravel">
 						<img src="assets/images/LaravelLogo.png "/>
 					</div>
-					<div class="stack-card" title="Vuejs">
-						<img src="assets/images/logo-Vue-JS.png" />
+					<div class="stack-card" title="Python">
+						<img src="assets/images/py.png" />
 					</div>
 					<div class="stack-card" title="Hybrid Apps">
 						<img src="assets/images/hybrid.png" />
@@ -210,10 +227,12 @@
 			<div class="two-column-grid__fixed--reverse">
 				<div class="grid-item">
 					<div class="mb-25">
-						<h3 class="txt-align__right">Freelancing</h3>
+						<h3 class="txt-align__right">Freelancing & Youtube</h3>
 					</div>
 					<p class="txt-justify mb-10">Maintenant 1 an que je suis dans le freelance.</p>
-					<p class="txt-justify">Ma priorité étant la satisfaction des clients, j'ai satisfait pas mal de clients.</p>
+					<p class="txt-justify">Ma priorité étant la satisfaction des clients, j'ai satisfait pas mal de clients. <br>
+						Par ailleurs j'ai une chaine youtube ou je fais des vidéos pour partager mes connaissances avec d'autres dévéloppeurs.
+					</p>
 				</div>
 				<div class="grid-item image-container">
 					<img class="max-limit" src="assets/images/freelancer.svg" alt="image" />
@@ -237,7 +256,8 @@
 				</div>
 				<div class="grid-item">
 					<div class="mb-25">
-						<h3>Instructeur chez Gomycode</h3>
+						<h3>Instructeur chez Gomycode </h3>
+						<h6 class="text-white"><i class="fa fa-time"></i> le 05 Mai 2021 à Aujourd'hui</h6>
 					</div>
 					<p class="mb-10">Je suis actuellement instructeur fullstack js chez Gomycode, j'apprends aux passionnés des tics comme moi 
 					le develepement d'applications web	.</p>
@@ -253,67 +273,119 @@
 							<div class="tile is-ancestor">
 							  <div class="tile is-vertical is-12">
 								<div class="tile">
-								  <div class="tile is-parent is-vertical">
-									<article class="tile is-child notification">
-									  <p class="title"><a href="https://levieperetudiant.ci" target="_blank">LVPE</a></p>
-									  <figure class="image is-4by3">
-										<img class="modal-trigger" data-target="project-1-modal" src="assets/images/lvpe1.jpg">
-									  </figure>
-									</article>
-								  </div>
+								  
 								  <div class="tile is-parent">
 									<article class="tile is-child notification">
 									  <p class="title"><a href="https://evallesse.com" target="_blank">Evallesse</a></p>
 									  <figure class="image is-4by3">
-										<img class="modal-trigger" data-target="project-2-modal" src="assets/images/evallesse.jpg">
+										<img class="modal-trigger image--cover" data-target="project-1-modal" src="assets/images/evallesse.jpg">
 									  </figure>
 									</article>
 								  </div>
-								  <div class="tile is-parent">
+
+								  <div class="tile is-parent is-vertical">
 									<article class="tile is-child notification">
-									  <p class="title"><a href="https://cepetsarments.com" target="_blank">Cep&Sarments</a></p>
+									  <p class="title"><a href="https://Silamashop.com" target="_blank">Silamashop</a></p>
 									  <figure class="image is-4by3">
-										<img class="modal-trigger" data-target="project-3-modal" src="assets/images/cep.jpg">
+										<img class="modal-trigger image--cover" data-target="project-2-modal" src="assets/images/silamashop_logo.png">
 									  </figure>
 									</article>
 								  </div>
+
 								</div>
 							  </div>
 							</div>
 							<div class="tile is-ancestor">
 							  <div class="tile is-vertical is-12">
 								<div class="tile">
+								  
+
 								  <div class="tile is-parent is-vertical">
 									<article class="tile is-child notification">
-									  <p class="title">Fadyintex.ci</p>
+									  <p class="title"><a href="https://adjeminpay.net" target="_blank">Adjeminpay</a></p>
 									  <figure class="image is-4by3">
-										<img class="modal-trigger" data-target="project-4-modal" src="assets/images/e1.jpg">
+										<img class="modal-trigger image--cover" data-target="project-3-modal" src="assets/images/adjeminpay_logo.png">
 									  </figure>
 									</article>
 								  </div>
-								  <div class="tile is-parent">
+
+								  <div class="tile is-parent ">
 									<article class="tile is-child notification">
-									  <p class="title">e-sign.com</p>
+									  <p class="title"><a href="https://baroland.netlify.app" target="_blank">Baroland (React & Firebase )</a></p>
 									  <figure class="image is-4by3">
-										<img class="modal-trigger" data-target="project-5-modal" src="assets/images/1.jpg">
+										<img class="modal-trigger image--cover" data-target="project-4-modal" src="assets/images/Forum_radio.png">
 									  </figure>
 									</article>
 								  </div>
-								  <div class="tile is-parent">
-									<article class="tile is-child notification">
-									  <p class="title">Istc Parc Info</p>
-									  <figure class="image is-4by3">
-										<img class="modal-trigger" data-target="project-6-modal" src="assets/images/admin.jpg">
-									  </figure>
-									</article>
-								  </div>
+								 
+								  
 								</div>
 							  </div>
 							</div>
+							<hr>
+							<h1 class="title">Projets réalisés avec HTML, CSS & JS Uniquement</h1>
+
+							<div class="tile is-ancestor">
+								<div class="tile is-vertical is-12">
+								  <div class="tile">
+									
+  
+									<div class="tile is-parent is-vertical">
+									  <article class="tile is-child notification">
+										<p class="title"><a href="https://lmc-shop.netlify.app" target="_blank">LMC SHOP</a></p>
+										<figure class="image is-4by3">
+										  <img class="modal-trigger image--cover" data-target="project-5-modal" src="assets/images/lmc-shop.webp">
+										</figure>
+									  </article>
+									</div>
+  
+									<div class="tile is-parent ">
+									  <article class="tile is-child notification">
+										<p class="title"><a href="https://miabox.netlify.app" target="_blank">Miabox</a></p>
+										<figure class="image is-4by3">
+										  <img class="modal-trigger image--cover" data-target="project-6-modal" src="assets/images/miabox-about.png">
+										</figure>
+									  </article>
+									</div>
+								   
+									
+								  </div>
+								</div>
+							  </div>
+
+							  <h1 class="title">Projets Mobile</h1>
+							  <hr>
+							  <div class="tile is-ancestor">
+								<div class="tile is-vertical is-12">
+								  <div class="tile">
+									
+  
+									<div class="tile is-parent is-vertical">
+									  <article class="tile is-child notification">
+										<p class="title"><a href="https://play.google.com/store/apps/details?id=com.nandemin" target="_blank">Nandemin</a></p>
+										<figure class="image is-4by3">
+										  <img class="modal-trigger image--cover" data-target="project-5-modal" src="assets/images/NANDEVertBlancNoir.png">
+										</figure>
+									  </article>
+									</div>
+  
+									<div class="tile is-parent ">
+									  <article class="tile is-child notification">
+										<p class="title"><a href="https://play.google.com/store/apps/details?id=com.cash_eco" target="_blank">Cash Eco</a></p>
+										<figure class="image is-4by3">
+										  <img class="modal-trigger image--cover" data-target="project-6-modal" src="assets/images/Rec1.png">
+										</figure>
+									  </article>
+									</div>
+								   
+									
+								  </div>
+								</div>
+							  </div>
 						  </div>
 				</div>
  <!-- Modals -->
- <div id="project-1-modal" class="modal">
+ <!-- <div id="project-1-modal" class="modal">
 		<div class="modal-background"></div>
 		<div class="modal-card">
 		  <header class="modal-card-head">
@@ -343,9 +415,9 @@
 			<button class="button is-success">Fermer</button>
 		  </footer>
 		</div>
-	  </div>
+	  </div> -->
 	
-	  <div id="project-2-modal" class="modal">
+	  <div id="project-1-modal" class="modal">
 		<div class="modal-background"></div>
 		<div class="modal-card">
 		  <header class="modal-card-head">
@@ -354,7 +426,7 @@
 		  </header>
 		  <section class="modal-card-body">
 			<p class="image is-3by2">
-			  <img src="assets/images/evallesse.png" alt="">
+			  <img src="assets/images/evallesse_capture.png" alt="">
 			</p>
 	
 			<div class="content">
@@ -363,7 +435,7 @@
 	
 			<div class="tags">
 			  <span class="tag">Laravel</span>
-			  <span class="tag">Msql</span>
+			  <span class="tag">Livewire</span>
 			  <span class="tag">js</span>
 			  <span class="tag">Bootstrap</span>
 			</div>
@@ -375,141 +447,165 @@
 		</div>
 	  </div>
 	
+	  <div id="project-2-modal" class="modal">
+		<div class="modal-background"></div>
+		<div class="modal-card">
+		  <header class="modal-card-head">
+			<p class="modal-card-title">Silamashop</p>
+			<button class="delete" aria-label="close"></button>
+		  </header>
+		  <section class="modal-card-body">
+			<p class="image is-3by2">
+			  <img src="assets/images/silamashop_capture.png" alt="">
+			</p>
+	
+			<div class="content">
+				Silamashop est le premier site de vente en ligne en côte d'ivoire spécialisé dans les produits arabo-musulmans.
+			</div>
+	
+			<div class="tags">
+			  <span class="tag">Laravel</span>
+			  <span class="tag">Mysql</span>
+			  <span class="tag">Bootstrap</span>
+			</div>
+	
+		  </section>
+		  <footer class="modal-card-foot">
+			<button class="button is-success">Fermer</button>
+		  </footer>
+		</div>
+	  </div>
+
 	  <div id="project-3-modal" class="modal">
 		<div class="modal-background"></div>
 		<div class="modal-card">
 		  <header class="modal-card-head">
-			<p class="modal-card-title">Cep&Sarments</p>
+			<p class="modal-card-title">Adjeminpay</p>
 			<button class="delete" aria-label="close"></button>
 		  </header>
 		  <section class="modal-card-body">
 			<p class="image is-3by2">
-			  <img src="assets/images/cep2.jpg" alt="">
+			  <img src="assets/images/adjeminpay_capture.png" alt="">
 			</p>
 	
 			<div class="content">
-			  C'est une plateforme de financement participatif mais aussi de presentation de l'entreprise
-			  , Cette plateforme utilise l'API Cinetpay un agregateur de tous les services Mobile Money de CI pour la collecte de fonds.
+			  AdjeminPay est un agrégateur de paiement digital en côte d'ivoire (MTN & Orange Money)
 			</div>
 	
 			<div class="tags">
 			  <span class="tag">Laravel</span>
-			  <span class="tag">Mysql</span>
-			  <span class="tag">jquery</span>
+			  <span class="tag">Livewire</span>
+			  <span class="tag">js</span>
 			  <span class="tag">Bootstrap</span>
 			</div>
 	
 		  </section>
 		  <footer class="modal-card-foot">
-			<button class="button is-success">Fermer</button>
+			<button class="button is-success">Close</button>
 		  </footer>
 		</div>
 	  </div>
-	
+
 	  <div id="project-4-modal" class="modal">
 		<div class="modal-background"></div>
 		<div class="modal-card">
 		  <header class="modal-card-head">
-			<p class="modal-card-title">Fadyintex</p>
+			<p class="modal-card-title">Baroland</p>
 			<button class="delete" aria-label="close"></button>
 		  </header>
 		  <section class="modal-card-body">
 			<p class="image is-3by2">
-			  <img src="assets/images/fad2.png" alt="">
+			  <img src="assets/images/baroland_capture.png" alt="">
 			</p>
 	
 			<div class="content">
-			  Fadyintex.ci est une site de e-commerce spécifique dans la vente des articles de l'entreprise(immobilier),
-			  il intègre un paiement par Mobile money et Stripe, doté d'un système d'administration magnifique permettant de faire le bilan mensuel des ventes, sans oublié les notifications de commande
-			  par e-mail et sms.
+			  Baroland est un forum 
 			</div>
 	
 			<div class="tags">
-			  <span class="tag">Laravel</span>
-			  <span class="tag">Mysql</span>
-			  <span class="tag">Vuejs</span>
+			  <span class="tag">React</span>
+			  <span class="tag">Firebase</span>
 			  <span class="tag">Bootstrap</span>
 			</div>
 	
 		  </section>
 		  <footer class="modal-card-foot">
-			<button class="button is-success">Fermer</button>
+			<button class="button is-success">Close</button>
 		  </footer>
 		</div>
 	  </div>
-	
+
 	  <div id="project-5-modal" class="modal">
 		<div class="modal-background"></div>
 		<div class="modal-card">
 		  <header class="modal-card-head">
-			<p class="modal-card-title">e-sign</p>
+			<p class="modal-card-title">LMC SHOP</p>
 			<button class="delete" aria-label="close"></button>
 		  </header>
 		  <section class="modal-card-body">
 			<p class="image is-3by2">
-			  <img src="assets/images/4.jpg" alt="">
+			  <img src="assets/images/lmc_capture.png" alt="">
 			</p>
-	
 			<div class="content">
-			  La première plateforme de signature électronique 100% gratuite en CI il permet de signer
-			  des documents administratifs et/ou facture à distance, les notifications sont gérés par e-mail et SMS grâce à
-			  l'API Twilio.
+			  LMC est site de vente en ligne de vetements et accessoires 
 			</div>
 	
 			<div class="tags">
 			  <span class="tag">Laravel</span>
-			  <span class="tag">Mysql</span>
-			  <span class="tag">Jquery</span>
+			  <span class="tag">Livewire</span>
+			  <span class="tag">js</span>
 			  <span class="tag">Bootstrap</span>
 			</div>
 	
 		  </section>
 		  <footer class="modal-card-foot">
-			<button class="button is-success">Fermer</button>
+			<button class="button is-success">Close</button>
 		  </footer>
 		</div>
 	  </div>
-	
+
 	  <div id="project-6-modal" class="modal">
 		<div class="modal-background"></div>
 		<div class="modal-card">
 		  <header class="modal-card-head">
-			<p class="modal-card-title">ISTC</p>
+			<p class="modal-card-title">Miabox Tv</p>
 			<button class="delete" aria-label="close"></button>
 		  </header>
 		  <section class="modal-card-body">
 			<p class="image is-3by2">
-			  <img src="assets/images/istc.jpg" alt="">
+			  <img src="assets/images/lmc_capture.png" alt="">
 			</p>
-	
 			<div class="content">
-			 Cette plateforme réalisé pour l'ISTC permet de gérer le parc informatique de la dite école.
+			 	Netflix Ivoirien
 			</div>
 	
 			<div class="tags">
-			  <span class="tag">PHP</span>
-			  <span class="tag">Mysql</span>
-			  <span class="tag">Jquery/Ajax</span>
+			  <span class="tag">Laravel</span>
+			  <span class="tag">Livewire</span>
+			  <span class="tag">js</span>
 			  <span class="tag">Bootstrap</span>
 			</div>
 	
 		  </section>
 		  <footer class="modal-card-foot">
-			<button class="button is-success">Fermer
-			</button>
+			<button class="button is-success">Close</button>
 		  </footer>
 		</div>
 	  </div>
+	
+	
+	
+	
 		</section>
 		<footer class="animate-fadeup">
 			<section class="footer-details">
 				<h3 class="footer-header">Suivez Moi sur</h3>
 				<ul class="footer-following">
-					<li class="following-item"><a href="" title="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-					<li class="following-item"><a href="" title="github"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-					<li class="following-item"><a href="" title="medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
-					<li class="following-item"><a href="" title="codepen"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
-					<li class="following-item"><a href="https://web.facebook.com/karimlebourgeois" title="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+					<li class="following-item"><a href="https://www.linkedin.com/in/karim-kouyate-b2b922182/" target="_blank" title="linkedin"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+					<li class="following-item"><a href="https://github.com/kkstar34" title="github" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+					<li class="following-item"><a href="https://www.youtube.com/channel/UCf9_mX3lPw67fOyfrON7jQg" target="_blank" title="medium"><i class="fa fa-youtube" target="_blank" aria-hidden="true"></i></a></li>
+					<li class="following-item"><a href="" title="codepen"><i class="fa fa-codepen" target="_blank" aria-hidden="true"></i></a></li>
+					<li class="following-item"><a href="https://web.facebook.com/karimlebourgeois" target="_blank" title="facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
 				</ul>
 				<h5 class="footer-header">Contactez moi</h3><br>
 					<h6 class="footer-header">(+225) 05-44-65-02-23</h6>
